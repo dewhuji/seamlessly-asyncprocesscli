@@ -1,1 +1,4 @@
-const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
+const firstName = "John";
+const lastName = "Doe";
+const fullName = firstName + " " + lastName;
+console.log(fullName); // John Doe
